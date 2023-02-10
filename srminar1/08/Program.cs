@@ -5,7 +5,7 @@
 void evenNumberList(int a)
 {
     Console.Write($"Четные числа для {a} -> ");
-    for (int i = 1; i < a; i++) if (i % 2 == 0) Console.Write($"{i} ");
+    for (int i = 1; i <= a; i++) if (i % 2 == 0) Console.Write($"{i} ");
     Console.WriteLine();
 }
 evenNumberList(5);
